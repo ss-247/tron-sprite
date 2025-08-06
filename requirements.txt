@@ -1,0 +1,9 @@
+transformers
+torch
+psutil
+textual
+rich
+platformdirs
+scikit-learn
+pandas
+

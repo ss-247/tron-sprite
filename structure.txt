@@ -1,0 +1,35 @@
+Structure.txt - v5         # File & folder Structure - Sprite 
+sprite_app/
+├── app.py                 ✅ launches - v1.2z (disabled model dillbert)
+├── config.py              ✅ tested - v1
+├── requirements.txt       ✅ saved - v1
+├── structure.txt          ✅ in progress - v5 ← current master plan + status
+│
+├── core/                   #version 1
+│   ├── brain.py           ✅ testing - v2
+│   └── environment.py     ✅ testing - v1
+│
+├── sensors/                #count 4 
+│   ├── cpu_sensor.py      ✅ tested - v1
+│   ├── memory_sensor.py   ✅ tested - v1
+│   ├── disk_sensor.py     ✅ tested - v1
+│   └── network_sensor.py  ✅ tested - v1
+│
+├── skills/                 #set 2
+│   ├── recommender.py     ⬜ to do
+│   └── summarizer.py      ⬜ to do
+│
+├── memory/                 #use 2
+│   ├── state.json         ⬜ to do (auto-gen or init)
+│   └── changelog.db       ⬜ to do
+│
+├── ui/                     #Tron
+│   ├── layout.py          ✅ saved - v1.4 clean TRON layout
+│   └── styles.css         ✅ testing - v5.5 TRON Theme
+│
+├── models/                 #inference 1
+│   └── distilbert-base-uncased/ ✅ saved - v1
+│       └── model files...       ✅ saved - v1
+│
+└── utils/                  #expand 1
+    └── file_io.py         ⬜ to do

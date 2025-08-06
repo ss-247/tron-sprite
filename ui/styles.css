@@ -1,0 +1,47 @@
+/* ui/styles.css - TRON theme v5.5 */
+
+Screen {
+    background: black;
+    color: cyan;
+}
+
+#header {
+    background: cyan;
+    color: black;
+    padding: 1 2;
+    height: 3;
+}
+
+#output_container {
+    background: black;
+    padding: 1 2;
+    border: round #0ff;
+    width: 60%;
+    height: 100%;
+}
+
+#output {
+    height: 80%;
+    overflow-y: auto;
+    border: round #0ff;
+    background: #000;
+    color: #0ff;
+    padding: 1;
+}
+
+#chat {
+    border: tall magenta;
+    background: #000;
+    color: #fff;
+    padding: 1;
+    height: 20%;
+}
+
+#brain {
+    border: tall cyan;
+    background: #111;
+    color: #0ff;
+    padding: 1 2;
+    width: 40%;
+    height: 100%;
+}
